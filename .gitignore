@@ -31,8 +31,16 @@
 /config/application.yml
 /config/credentials.yml.enc
 /config/secrets.yml
-/config/*
-!/config/config.ru
 
 # Ignore public uploads
 public/uploads
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
