@@ -1,0 +1,95 @@
+$darkAqua: #006e73;
+$normalAqua: #00abb0;
+$lightAqua: #6bc9d0;
+
+$darkOrange: #a44f24;
+$normalOrange: #f37621;
+$lightOrange: #fab274;
+
+$darkGray: #1f1c22;
+$normalGray: #38353b;
+$lightGray: #98939c;
+
+
+
+
+// // Variables
+//
+$primary: $normalOrange;
+$secondary: $normalAqua;
+$success: $lightAqua;
+$warning: #f37621;
+$alert: #a44f24;
+
+$proposals: #00abb0;
+$actions: #00abb0;
+$debates: #00abb0;
+$meetings: #00abb0;
+//
+$twitter: #f37621;
+$facebook: #f37621;
+$google: #f37621;
+
+@import "decidim/application";
+
+.title-bar{
+    background: $darkAqua;
+    border-top-color: $lightAqua;
+}
+
+.navbar{
+    background: $normalAqua;
+}
+
+.main-footer{
+    color: #fff;
+    a{
+        color: #fff;
+    }
+    background-color: $normalAqua;
+}
+.mini-footer{
+    color: #fff;
+    background-color: $darkAqua;
+
+    a{
+        color: #fff;
+    }
+
+    .cc-badge, .decidim-logo{ /* Ugly */
+        display: none;
+    }
+}
+
+.topbar__search input{
+    background: #ffffff;
+
+    &:focus{
+        background: $lightOrange;
+    }
+}
+
+@media screen and (max-width: 39.9375em){
+    body{
+        background-color: $normalAqua;
+    }
+}
+
+.logo-cityhall{
+    padding:0px 16px;
+    max-width: 82px;
+    img{
+        max-width: 100%;
+        height: auto !important;
+
+    }
+}
+
+.main-footer__badge{
+    height: 100%;
+    top: 0px;
+    padding: 16px;
+    img{
+        max-height: 100%;
+    }
+}
